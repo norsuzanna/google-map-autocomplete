@@ -1,0 +1,45 @@
+.map {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.ant-input:placeholder-shown {
+  text-overflow: ellipsis;
+  position: fixed;
+  display: block;
+  margin: 11% 1%;
+  width: 40%;
+}
+
+.ant-input-focused,
+.ant-input:focus {
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+  border-right-width: 1px;
+  outline: 0;
+  position: fixed;
+  display: block;
+  margin: 11% 1%;
+  width: 40%;
+}
+
+.ant-input {
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+  border-right-width: 1px;
+  position: fixed !important;
+  display: block !important;
+  margin: 11% 1% !important;
+  width: 40% !important;
+}
+
+.ant-list-item {
+  position: fixed;
+  display: block;
+  margin: 15% 1%;
+  background-color: white;
+  width: 40%;
+}
